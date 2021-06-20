@@ -1,0 +1,28 @@
+### Intellij IDEA ###
+.idea/
+.idea/artifacts
+.idea/compiler.xml
+.idea/modules.xml
+*.iml
+*.iws
+
+### Netbeans ###
+/build/*
+nbactions*.xml
+nb-configuration*.xml
+
+### Maven ###
+log/
+target/
+
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+
+### Other Files ###
+*.log
+*.rar
+*.zip
+*.tar.gz
