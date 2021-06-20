@@ -10,6 +10,9 @@
 /build/*
 nbactions*.xml
 nb-configuration*.xml
+.netbeans_automatic_build
+.netbeans_update_resources
+
 
 ### Maven ###
 log/
@@ -17,12 +20,13 @@ target/
 
 ### Java ###
 *.class
-##*.jar
-##*.war
+#*.jar
+#*.war
 *.ear
 
 ### Other Files ###
 *.log
-*.rar
-*.zip
 *.tar.gz
+*.rar
+#*.zip
+
