@@ -17,8 +17,8 @@ target/
 
 ### Java ###
 *.class
-*.jar
-*.war
+##*.jar
+##*.war
 *.ear
 
 ### Other Files ###
