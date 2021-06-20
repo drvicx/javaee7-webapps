@@ -1,0 +1,102 @@
+html, body, h1, h2 {
+  margin: 0px;
+  padding: 0px;
+  color: RGB(64,64,64);
+}
+
+table, td, tr {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-collapse: collapse;
+}
+
+body, textarea, input {
+  font-size: 12px;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  color: RGB(64,64,64);
+}
+
+hr {
+  border: 1px solid #DADCE0;            /*Как цвет полосы в Chrome*/
+}
+
+#pageContainer {
+    /*border: 1px solid red;*/
+    max-width: 100%;
+    padding: 10px 0 5px 15px;
+}
+
+#header {
+    /*border: 1px solid red;*/
+    padding-bottom: 20px;
+    border-bottom: 1px solid #DADCE0;   /*Как цвет полосы в Chrome*/
+}
+
+#centerBlock {
+    /*border: 1px solid green;*/
+    width: 100%;
+    padding-top: 20px;
+}
+
+
+/**
+ *=COMPONENT TITLE
+*/
+.component-header {
+  font-family: "Arial Black", monospace;
+  font-size: 22px;
+  color: brown;
+  width: 95%;
+  margin-left: 20px;
+}
+
+/**
+ *=TABLE OUTPUT
+ * https://www.w3schools.com/css/css_table.asp
+ * https://www.w3schools.com/css/tryit.asp?filename=trycss_table_fancy
+*/
+#userdata {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 95%;
+  margin-left: 20px;
+}
+
+#userdata td, #userdata th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#userdata tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+#userdata tr:hover {
+  background-color: #ddd;
+}
+
+#userdata th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  /*background-color: #04AA6D;*/  /*--Green*/
+  background-color: #1976D2;      /*--SkyBlue*/
+  color: white;
+}
+
+#userdata a:link, #userdata a:visited {
+  color: blue;
+  text-decoration: none;
+  cursor: auto;
+}
+
+#userdata a:link:hover {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#userdata a:link:active, #userdata a:visited:active {
+  color: blue;
+}
